@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #4a3dff;
+  padding: 18px;
+  display: flex;
+  gap: 25px;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logout-btn {
+  margin-left: auto;
+  background: #ff4444;
+  border: none;
+  padding: 8px 16px;
+  color: white;
+  border-radius: 8px;
+}
+
+/* FORMS */
+.form-container {
+  max-width: 450px;
+  margin: 50px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ddd;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+}
+
+.form-btn {
+  width: 100%;
+  padding: 12px;
+  background: #4a3dff;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  font-size: 18px;
+}
+
+/* QUIZ */
+.quiz-wrapper {
+  width: 70%;
+  margin: auto;
+}
+
+.q-card {
+  background: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #ddd;
+}
+
+.option {
+  display: block;
+  margin: 8px 0;
+}
+
+/* RESULT */
+.result-box {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.restart-btn,
+.submit-btn,
+.start-btn {
+  margin-top: 20px;
+  padding: 14px 26px;
+  border-radius: 8px;
+  border: none;
+  background: #4a3dff;
+  color: white;
+  font-size: 16px;
+}
+
+/* HOME */
+.home-container {
+  text-align: center;
+  padding-top: 50px;
+}
